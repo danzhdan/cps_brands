@@ -2,7 +2,10 @@ const actionButton = document.querySelector(".swiper-slide__button");
 const showBlocks = document.querySelectorAll(".swiper-slide");
 
 function handleToggleClick() {
-  if (actionButton.textContent === "Показать все") {
+  const textButton = actionButton.classList.contains(
+    "swiper-slide__button_active"
+  );
+  if (!textButton) {
     actionButton.textContent = "Скрыть";
   } else {
     actionButton.textContent = "Показать все";

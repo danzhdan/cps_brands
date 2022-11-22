@@ -45,62 +45,8 @@ body {
   letter-spacing: 0.2px;
 }
 
-.swipper-slide__lenovo-img {
-  width: 108px;
-  height: 32px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/lenovo.png) no-repeat;
-}
-.swipper-slide__samsung-img {
-  width: 116px;
-  height: 40px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/samsung.png) no-repeat;
-}
-.swipper-slide__apple-img {
-  width: 44px;
-  height: 40px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/apple.png) no-repeat center;
-}
-
-.swipper-slide__viewsonic-img {
-  width: 128px;
-  height: 25px;
-  background: url(source/png/viewsonic.png) no-repeat;
-}
-
-.swipper-slide__bosch-img {
-  width: 128px;
-  height: 30px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/bosch.png) no-repeat;
-}
-.swipper-slide__hp-img {
-  width: 52px;
-  height: 40px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/hp.png) no-repeat center;
-}
-
-.swipper-slide__acer-img {
-  width: 94px;
-  height: 24px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/acer.png) no-repeat;
-}
-.swipper-slide__sony-img {
-  width: 128px;
-  height: 26px;
-  border: 0;
-  cursor: pointer;
-  background: url(source/png/sony.png) no-repeat;
+.swiper-slide__link_size {
+  height: 44px;
 }
 
 .swipper-slide__arrow-link {
